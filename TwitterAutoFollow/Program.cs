@@ -13,7 +13,24 @@ namespace TwitterAutoFollow
             try
             {
                 Console.ForegroundColor = ConsoleColor.Green;
-                Console.WriteLine("Hello!");
+                Console.WriteLine("Hello!\n\n");
+                //So, we have a browser open with some "follow" image links.
+                //If you click these image links, then you follow the person.
+
+                //1) Console will ask you to draw a rectange on the screen where the Follow buttons may be.
+
+                //2) Internally takes a screenshot.
+
+                //3) Screenshot translates to List of coordinates.
+
+                //4) Iterate through coordinates and click those coordinates.
+
+                //5) Page Down. Rinse and Repeat until no matches are found.
+
+
+
+
+
 
             }
             catch(Exception ex)
